@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # HW0x00 Writeup
 
 ## pwn
@@ -148,32 +147,4 @@ r.interactive()
 ![](https://i.imgur.com/NmwAv7z.jpg)
 
 ![](https://i.imgur.com/1M2Gp8B.png)
-
-=======
-# HW0x00
-
-## pwn - shellc0de
-
-### Solution
-
-首先看到 source code 有擋
-
-## rev - m4chine
-
-### Solution
-
-
-## misc - Winmagic
-
-### Solution
-
-
---
-
-## 我在課堂公布解法後才得知解法的題目
-
-### encrypt
-
-### backdoor
->>>>>>> 4257df81eaac22a5ebb9bb1e9110beb90d690eb7
 
