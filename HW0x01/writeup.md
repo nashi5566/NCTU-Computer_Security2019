@@ -17,7 +17,7 @@
 ![](https://i.imgur.com/PpqppAI.png)
 
 
-認知到年份一定要是 1985 的原因之後，查閱了`localtime()`，因為 `time.h` 中時間的計算是從 1970，年份是從 1900 以後開始，所以可以看到 0x00401649 將 `0x76C` ，就是 1900 加到 `EAX` 回傳年份，於是將 `ADD` 這個步驟 patch 成 `ADD EAX, 74A`，年份就會是 1985 而不是 2019 了。
+認知到年份一定要是 1985 的原因之後，查閱了`localtime()`，因為 `time.h` 中時間的計算是從 1900/01/01 以後開始，所以可以看到 0x00401649 將 `0x76C` ，就是 1900 加到 `EAX` 回傳年份，於是將 `ADD` 這個步驟 patch 成 `ADD EAX, 74A`，年份就會是 1985 而不是 2019 了。
 
 ![](https://i.imgur.com/0bsqbEV.png =350x400)
 ![](https://i.imgur.com/qKbGghO.png)
