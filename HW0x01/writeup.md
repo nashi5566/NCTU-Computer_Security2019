@@ -19,7 +19,7 @@
 
 認知到年份一定要是 1985 的原因之後，查閱了`localtime()`，因為 `time.h` 中時間的計算是從 1900/01/01 以後開始，所以可以看到 0x00401649 將 `0x76C` ，就是 1900 加到 `EAX` 回傳年份，於是將 `ADD` 這個步驟 patch 成 `ADD EAX, 74A`，年份就會是 1985 而不是 2019 了。
 
-![](https://i.imgur.com/0bsqbEV.png =350x400)
+![](https://i.imgur.com/0bsqbEV.png)
 ![](https://i.imgur.com/qKbGghO.png)
 
 隨後改完年份以後，可以看到 `0x00401702` 的部份跟 `0x7C1` 做比較，也就是 1985 ，年份不對的話會出現警告的句子。這邊 patch 掉之後，就不會看到這句話了。
@@ -47,7 +47,7 @@
 
 就能看到接下來的檢查 ，`AL` 跟 `DL` 都會是一樣的。
 
-![](https://i.imgur.com/XSjNItX.png =450x500)
+![](https://i.imgur.com/XSjNItX.png)
 
 接著就能看到 Flag 了：
 
