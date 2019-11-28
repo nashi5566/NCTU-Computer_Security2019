@@ -14,3 +14,12 @@ This is the repo with all writeups (only Homework included) for Computer Securit
 		Unexpolitable (reccon): https://github.com/nashi5566/NCTU-Computer_Security2019/blob/master/HW0x03/HW0x03%20Writeup.md#unexploitable
 		Safe R/W (PHP tricks): https://github.com/nashi5566/NCTU-Computer_Security2019/blob/master/HW0x03/HW0x03%20Writeup.md#safe-rw
 	* week 4
+
+* Pwn
+	* week 5
+		- Lab
+			1. bof
+			2. how2orw
+		- homework
+			casino
+	* week 7
