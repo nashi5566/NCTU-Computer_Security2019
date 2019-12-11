@@ -28,4 +28,4 @@ This is the repo with all writeups (only Homework included) for Computer Securit
 			1. **rop**: [exploit](https://github.com/nashi5566/NCTU-Computer_Security2019/tree/master/HW0x07/lab/rop_)
 			2. **ret2plt**: [exploit](https://github.com/nashi5566/NCTU-Computer_Security2019/tree/master/HW0x07/lab/ret2plt_)
 			3. **ret2libc**: [exploit](https://github.com/nashi5566/NCTU-Computer_Security2019/tree/master/HW0x07/lab/ret2libc_)
-		- **casino++**: [writeup](https://github.com/nashi5566/NCTU-Computer_Security2019/blob/master/HW0x07/HW0x07%20Writeup.md) [exploit](https://github.com/nashi5566/NCTU-Computer_Security2019/blob/master/HW0x07/exploit/casino%2B%2B.py)
+		- **casino++**: [writeup](https://github.com/nashi5566/NCTU-Computer_Security2019/blob/master/HW0x07/casino%2B%2B/HW0x07%20Writeup.md)[exploit](https://github.com/nashi5566/NCTU-Computer_Security2019/blob/master/HW0x07/casino%2B%2B/exploit/casino%2B%2B.py)
