@@ -1,4 +1,4 @@
-# NCTU Computer Security 2019 Writeups
+# NCTU Secure Programming 2019 Writeups
 
 This is the repo with all writeups (only Homework included) for Computer Security Course @ NCTU Fall 2019.
 
